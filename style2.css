@@ -1,0 +1,143 @@
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+  .mobnavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    width: calc(100vw - 4rem);
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .mobnavbar img {
+    padding: 0;
+    height: 2rem;
+  }
+  .mobnavbar button {
+    width: 2rem;
+    height: 2rem;
+  }
+  .navLinks {
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    top: 5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .navLinks a {
+    margin: 0.3rem;
+    font-size: small;
+    color: rgb(55, 55, 55);
+  }
+  .menu {
+    display: none;
+  }
+  .open {
+    display: flex;
+  }
+  #home {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Alegreya";
+    margin: -5px 0 -20px 0;
+  }
+  #home p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+  }
+  .header {
+    padding: 20px 0;
+  }
+  .header .p2 {
+    padding-top: 5px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 120px 0;
+  }
+
+  .btns {
+    margin-bottom: -2rem;
+  }
+  .sidebtns {
+    bottom: 60vh;
+  }
+
+  #about,
+  #gallery,
+  #contact,
+  .details {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #about .info,
+  #ourOffer .info,
+  #contact .info {
+    margin-left: 0;
+
+    width: 100%;
+  }
+  #ourOffer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  #gallery {
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card {
+    justify-content: center;
+  }
+  .card > * {
+    width: 95%;
+    color: rgb(102, 102, 102);
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    width: 95vw;
+    height: 85vw;
+    padding: 2rem 0;
+  }
+  footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .about {
+    text-align: center;
+  }
+}
